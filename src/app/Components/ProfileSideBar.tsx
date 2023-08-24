@@ -17,7 +17,7 @@ import {
 } from '@mui/icons-material'
 import Image from 'next/image'
 import SkillBar from './Skills'
-import profileImg from '../../public/Nguyen.png'
+import profileImg from '/Nguyen.png'
 
 function GeneralInfo(
   generalIcon: ReactElement<SvgIconProps>,
