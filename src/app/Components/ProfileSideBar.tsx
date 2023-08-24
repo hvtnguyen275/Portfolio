@@ -54,6 +54,7 @@ export default function ProfileSideBar() {
             src="/NguyenHuynhProfile.JPEG"
             alt={'Nguyen Huynh Profile Picture'}
             objectFit="cover"
+            loading="lazy"
           />
         </div>
         <h3 className={styles.sideBarTitle}>Personal Details</h3>
