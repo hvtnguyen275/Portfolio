@@ -6,6 +6,7 @@ import {
   Grid,
   SvgIconProps,
   Hidden,
+  Avatar,
 } from '@mui/material'
 import styles from '../page.module.css'
 import {
@@ -39,22 +40,19 @@ export default function ProfileSideBar() {
   return (
     <>
       <CardContent>
-        {/* <Hidden mdDown>
-          <Container>
-            <SideBar />
-          </Container>
-        </Hidden>
-        <Hidden mdUp>
-        <SideBar />
-        </Hidden> */}
         <div className={styles.avatarProfile}>
-          <Image
+          {/* <Image
             width={200}
             height={200}
             src="/NguyenHuynhProfile.JPEG"
             alt={'Nguyen Huynh Profile Picture'}
             objectFit="cover"
             loading="lazy"
+          /> */}
+          <Avatar
+            src="/NguyenHuynhProfile.JPEG"
+            alt="Nguyen Huynh"
+            sx={{ width: 200, height: 200 }}
           />
         </div>
         <h3 className={styles.sideBarTitle}>Personal Details</h3>
