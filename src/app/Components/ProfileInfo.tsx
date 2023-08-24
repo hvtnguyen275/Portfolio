@@ -34,13 +34,13 @@ const activities = [
     'APU Teaching Assistance Team',
     'Oct 2021 - Feb 2023',
     'Teaching Assistance (TA) - Statistics',
-    'Assist Professor and students during lectures'
+    'Assist Professor and students during lectures.'
   ),
   Activity(
     'Sang Soft',
     'March 2022 - Nov 2022',
     'Front-end Developer Intern',
-    'Adjust UI according to design'
+    'Adjust UI according to design.'
   ),
 ]
 
@@ -65,20 +65,6 @@ const honors = [
 export default function ProfileInfo() {
   return (
     <>
-      {/* <Hidden mdDown>
-        <CardContent>
-          <Container>
-            <h1 className={styles.profileName}>Huynh Vu Thao Nguyen</h1>
-            <Divider />
-          </Container>
-        </CardContent>
-        <CardContent>
-          <Container>
-            <ProfileData />
-          </Container>
-        </CardContent>
-      </Hidden>
-      <Hidden mdUp> */}
       <CardContent>
         <h2 className={styles.profileName}>Huynh Vu Thao Nguyen</h2>
         <Divider />
@@ -89,7 +75,7 @@ export default function ProfileInfo() {
             University, Japan. I am an enthusiastic, open-minded and flexible
             team-player possessing excellent analytics and detail-oriented
             skills. Proficiency in different languages interpretation.
-            Experienced in working and team management in both Vietnamese and
+            Experienced in working and team managing in both Vietnamese and
             international environment with different cultures and working
             styles.
           </p>
@@ -102,7 +88,7 @@ export default function ProfileInfo() {
               Ritsumeikan Asia Pacific University
             </h4>
             <p className={styles.profileText}>
-              Bachelor of Accounting and Finance Major
+              Bachelor of Accounting and Finance Major.
             </p>
           </div>
         </div>

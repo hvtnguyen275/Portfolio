@@ -15,7 +15,7 @@ const skills = [
   SkillInfo('Teamwork', '75%'),
   SkillInfo('Javascript/HTML/CSS', '60%'),
   SkillInfo('ReactJS', '55%'),
-  SkillInfo('Typescript', '50%'),
+  SkillInfo('Typescript', '40%'),
 ]
 
 export default function SkillBar(): ReactElement {
