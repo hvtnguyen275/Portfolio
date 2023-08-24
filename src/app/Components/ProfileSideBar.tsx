@@ -50,7 +50,7 @@ export default function ProfileSideBar() {
             loading="lazy"
           /> */}
           <Avatar
-            src="%PUBLIC_URL%/NguyenHuynhProfile.JPEG"
+            src="/Nguyen.png"
             alt="Nguyen Huynh"
             sx={{ width: 200, height: 200 }}
           />
