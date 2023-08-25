@@ -54,7 +54,7 @@ export default function ProfileSideBar() {
               src={profileImg}
               alt={'Nguyen Huynh Profile Picture'}
               objectFit="cover"
-              loading="lazy"
+              // loading="lazy"
             />
           </Avatar>
         </div>
