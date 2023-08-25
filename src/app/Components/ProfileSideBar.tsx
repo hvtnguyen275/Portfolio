@@ -16,6 +16,7 @@ import {
   CakeOutlined,
 } from '@mui/icons-material'
 import Image from 'next/image'
+import profileImg from '../../../public/Nguyen.png'
 import SkillBar from './Skills'
 
 function GeneralInfo(
@@ -49,9 +50,11 @@ export default function ProfileSideBar() {
             <Image
               width={200}
               height={200}
-              src="/Nguyen.png"
+              // src="/Nguyen.png"
+              src={profileImg}
               alt={'Nguyen Huynh Profile Picture'}
               objectFit="cover"
+              loading="lazy"
             />
           </Avatar>
         </div>
