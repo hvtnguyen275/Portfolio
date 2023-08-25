@@ -1,11 +1,4 @@
-import {
-  CardContent,
-  Container,
-  Grid,
-  SvgIconProps,
-  Divider,
-  Hidden,
-} from '@mui/material'
+import { CardContent, Grid, Divider } from '@mui/material'
 import styles from '../page.module.css'
 
 function Activity(
@@ -137,9 +130,7 @@ export default function ProfileInfo() {
             </div>
           ))}
         </div>
-        {/* <ProfileData /> */}
       </CardContent>
-      {/* </Hidden> */}
     </>
   )
 }

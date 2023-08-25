@@ -33,10 +33,6 @@ const personalInfo = [
   GeneralInfo(<LinkedIn />, './in/nguyenhuynhvt'),
 ]
 
-const SideBar = () => {
-  return <></>
-}
-
 export default function ProfileSideBar() {
   return (
     <>
