@@ -17,7 +17,6 @@ import {
 } from '@mui/icons-material'
 import Image from 'next/image'
 import SkillBar from './Skills'
-import profileImg from '/Nguyen.png'
 
 function GeneralInfo(
   generalIcon: ReactElement<SvgIconProps>,
@@ -42,19 +41,19 @@ export default function ProfileSideBar() {
     <>
       <CardContent>
         <div className={styles.avatarProfile}>
-          <Image
-            width={200}
-            height={200}
-            src={profileImg}
-            alt={'Nguyen Huynh Profile Picture'}
-            objectFit="cover"
-            loading="lazy"
-          />
-{/*           <Avatar
-            src="/Nguyen.png"
-            alt="Nguyen Huynh"
+          <Avatar
+            // src="/Nguyen.png"
+            // alt="Nguyen Huynh"
             sx={{ width: 200, height: 200 }}
-          /> */}
+          >
+            <Image
+              width={200}
+              height={200}
+              src="/Nguyen.png"
+              alt={'Nguyen Huynh Profile Picture'}
+              objectFit="cover"
+            />
+          </Avatar>
         </div>
         <h3 className={styles.sideBarTitle}>Personal Details</h3>
 
