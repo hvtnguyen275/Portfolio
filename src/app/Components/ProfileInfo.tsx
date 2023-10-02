@@ -12,7 +12,7 @@ function Activity(
 
 const activities = [
   Activity(
-    'Vietnamese Sound Lab - Acoustic Night',
+    'Vietnamese Sound Lab ',
     'Oct 2019 - Feb 2023',
     'Performer - Pianist | Event Dỉrector',
     'Participate in event and performance organizing.'
@@ -38,6 +38,11 @@ const activities = [
 ]
 
 const honors = [
+  Activity(
+    'Outstanding Thesis Awards 2023',
+    'Sept 2023',
+    'Title: Sensory immersion: A theoretical approach on a digital art museum teamLab Inc.'
+  ),
   Activity(
     'PAL Inoue Scholarship',
     'Apr 2022 - March 2023',
@@ -91,10 +96,10 @@ export default function ProfileInfo() {
           {activities.map((info) => (
             <div key={info.title}>
               <Grid container justifyContent="space-between">
-                <Grid item md={7} xs={12}>
+                <Grid item md={7} sm={7} xs={12}>
                   <h4 className={styles.profileSubTitle}>{info.title}</h4>
                 </Grid>
-                <Grid item md={5}>
+                <Grid item md={5} sm={5}>
                   <p className={styles.profileTimeStamp}>{info.time}</p>
                 </Grid>
               </Grid>
@@ -110,10 +115,10 @@ export default function ProfileInfo() {
           {honors.map((info) => (
             <div key={info.title}>
               <Grid container justifyContent="space-between">
-                <Grid item md={7} xs={12}>
+                <Grid item md={7} sm={7} xs={12}>
                   <h4 className={styles.profileSubTitle}>{info.title}</h4>
                 </Grid>
-                <Grid item md={5}>
+                <Grid item md={5} sm={5}>
                   <p className={styles.profileTimeStamp}>{info.time}</p>
                 </Grid>
               </Grid>

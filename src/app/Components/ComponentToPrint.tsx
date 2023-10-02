@@ -3,7 +3,7 @@
 import { useRef } from 'react'
 import ReactToPrint from 'react-to-print'
 import React from 'react'
-import { Hidden, CardContent, Grid, IconButton } from '@mui/material'
+import { Hidden, CardContent, Grid, IconButton, Container } from '@mui/material'
 import { PrintOutlined } from '@mui/icons-material'
 import ProfileSideBar from './ProfileSideBar'
 import ProfileInfo from './ProfileInfo'
@@ -24,7 +24,7 @@ export default function Example() {
         />
       </Hidden>
       <div ref={componentRef}>
-        <CardContent>
+        <Container style={{ margin: '20px 0' }}>
           <Grid container>
             <Grid item sm={4} xs={12}>
               <ProfileSideBar />
@@ -33,7 +33,7 @@ export default function Example() {
               <ProfileInfo />
             </Grid>
           </Grid>
-        </CardContent>
+        </Container>
       </div>
     </div>
   )

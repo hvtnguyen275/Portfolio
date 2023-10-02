@@ -68,13 +68,14 @@
   font-family: var(--font-mono);
   font-size: 24px;
   text-transform: uppercase;
+  margin: 15px 0;
 }
 
 .profileTitle {
   font-family: var(--font-mono);
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 35px 0 0 0;
+  margin: 25px 0 0 0;
   font-size: 18px;
   color: #242424;
 }
@@ -114,7 +115,7 @@
 
 /*For Mobile and Printing*/
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .profileTimeStamp {
     margin: 5px 0;
   }
